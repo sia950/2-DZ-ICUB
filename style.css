@@ -128,7 +128,7 @@ select {
 
 .line {
     /* Стили для линии */
-    margin-top: 60px 0px;
+    margin: 60px 0px;
 }
 
 table {
