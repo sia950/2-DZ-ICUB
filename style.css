@@ -51,7 +51,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -83,19 +83,21 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     margin-left: 25px;
-    list-style-image: url(./assets/solar_map-arrow-up-bold.svg)
+    list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
+    padding: 0px 20px;
     
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     margin-left: 25px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -105,10 +107,11 @@ select {
 
 .text-field {
     /* Стили для односточного поля ввода текста */
-     width: 330px;
+    width: 330px;
     height: 36px;
     padding: 9px 215px 8px 12px;
     margin-right: 9px;
+    font-size: 16px;
 }
 
 .btn {
@@ -125,7 +128,7 @@ select {
 
 .line {
     /* Стили для линии */
-    margin-top: 60px;
+    margin-top: 60px 0px;
 }
 
 table {
@@ -134,6 +137,7 @@ table {
     width: 300px;
     height: 196px;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
@@ -142,6 +146,7 @@ th, td {
     font-weight: 400;
     font-size: 14px;
     color: #303030;
+    padding: 12px 15px;
 }
 
 footer {
